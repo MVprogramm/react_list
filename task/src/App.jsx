@@ -1,11 +1,9 @@
 import React from 'react';
 
-import NumberList from './NumberList.jsx';
+import NumbersList from './NumbersList.jsx';
 
 const numbers = [1, 2, 3, 4, 5];
 
-const App = () => {
-  return <NumberList numbers={numbers} />;
-};
+const App = () => <NumbersList numbers={numbers} />;
 
 export default App;
